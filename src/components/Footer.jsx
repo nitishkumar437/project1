@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
@@ -39,7 +39,7 @@ const Footer = () => {
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/hiteshchoudhary"
+                    href="https://github.com/nitishkumar437"
                     className="hover:underline"
                     target="_blank"
                     rel="noreferrer"
@@ -48,9 +48,14 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <Link to="/" className="hover:underline">
-                    Discord
-                  </Link>
+                  <a
+                    href="https://www.instagram.com/alone_lover_0654/"
+                    className="hover:underline"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Instagram
+                  </a>
                 </li>
               </ul>
             </div>
@@ -76,9 +81,12 @@ const Footer = () => {
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center">
-            © 2023
-            <a href="https://hiteshchoudhary.com/" className="hover:underline">
-              hiteshchoudhary
+            © 2025
+            <a
+              href="https://www.instagram.com/alone_lover_0654/"
+              className="hover:underline"
+            >
+              Nitishkumar
             </a>
             . All Rights Reserved.
           </span>
@@ -164,6 +172,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;
